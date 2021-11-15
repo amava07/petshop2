@@ -1,0 +1,213 @@
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+	background-color: black;
+	color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section-nav li{
+    display: flex;
+    list-style: none;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    font-style: bold;
+    color: white;
+    padding: 5px;
+}
+.div1 span{
+    color:#3C2313;
+}
+.logoheader{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section_div1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+.baner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../resources/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #a0dcb8;
+    height: 408px;
+    position: relative;
+
+}
+.baner h2{
+    margin: 80px;
+    top: 100px;
+    left: 250px;
+    background-color: white;
+    font-size: 35px;
+    color:#3C2313;
+}
+.baner p{
+    font-size: 16px;
+    line-height: 19px;
+}
+.baner h2, .baner p{
+    
+  margin: 12px 0;
+  color: #3c2313;
+  font-weight: normal;
+}
+.baner button{
+  background: #f0a83e;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 15px 23px;
+  border: none;
+}
+.titulo_section{
+    text-align: center;
+    margin: 25px 0 50px;
+}
+.titulo_section i{
+    color: #F0A83E;
+    font-size: 60px;
+}
+.titulo_section h1{
+    font-size: 40px;
+    line-height: 47px;
+    color:#3C2313
+}
+.titulo_section a{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 15px;
+    text-decoration: none;
+    color:#666666
+}
+.divisor{
+    padding: 0 13px;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.productos section{
+    background-color: #fbfaf6;
+    text-align: center;
+    padding: 6px;
+}
+.titulo_producto{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3c2313;
+  margin: 0;
+
+}
+.valor_producto{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #f0a83e;
+    margin: 0; 
+}
+.suscribete{
+    background-color:#f0a83e ;
+    background-size: contain;
+
+}
+.datos {
+    background-color: #3c2313;
+    padding: 23px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .datos .items {
+    width: 30%;
+  }
+  
+  .item_datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .item_icono {
+    flex: 1 30px;
+    align-self: center;
+  }
+  
+  .item_icono .icono {
+    border-radius: 50%;
+    font-size: 45px;
+    background-color: #8a8787;
+    border: 2px solid #786960;
+  }
+  
+  .item_texto {
+    flex: 1 50%;
+    justify-self: flex-start;
+    align-self: center;
+  }
+  
+  .item_texto h2,
+  .item_texto p {
+    margin: 0;
+  }
+  
+  .item_texto h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .item_texto p {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8a8787;
+  }
+  .suscribete{
+      font-size: 25px;
+
+  }
+  .suscribete p{
+      font-size:  25px;
+      color: white;
+      padding: 10px;
+      margin: 0px;
+  }
+  .logo_footer{
+      font-size: 20px;
+      color:#f0a83e ;
+  }
+  .logo_footer span{
+    color:white;
+}
+.footer{
+    background-color: black;
+    background-size: contain;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    margin: 0px;
+}
